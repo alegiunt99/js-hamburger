@@ -20,3 +20,12 @@ openMenuBtn.addEventListener('click',
     hamburgerMenu.style.display = 'block';
     openMenuBtn.style.display = 'none';
 })
+
+
+// attivare la chiusura del menu a tendina
+
+closeMenu.addEventListener('click',
+    function () {
+    hamburgerMenu.style.display = 'none';
+    openMenuBtn.style.display = 'inline-block';
+})
